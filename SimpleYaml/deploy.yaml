@@ -18,7 +18,7 @@ spec:
         app: mydeploy
     spec:
       containers:
-      - image: nginx:latest
+      - image: nginx:1.28.0
         name: nginx
         ports:
         - containerPort: 80
